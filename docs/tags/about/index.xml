@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on time is life with tech</title>
-    <link>https://timeislife.teche/tags/about/</link>
+    <link>https://timeislife.tech/tags/about/</link>
     <description>Recent content in About on time is life with tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022, kyk; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://timeislife.teche/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://timeislife.tech/tags/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://timeislife.teche/about/</link>
+      <link>https://timeislife.tech/about/</link>
       <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://timeislife.teche/about/</guid>
+      <guid>https://timeislife.tech/about/</guid>
       <description>This is a site about time, life and hack.</description>
     </item>
     
