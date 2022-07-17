@@ -4,25 +4,25 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>nmap cheat - Time is life with tech</title>
+	<title>nmap cheat nmapチート - Time is life with tech</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:title" content="nmap cheat" />
-<meta property="og:description" content="nmap is a port scan tool. these are the majore options when running. -T5 insane 最速でスキャンを実行 https://nmap.org/man/ja/man-performance.html -T4 Aggresive スキャン処理の遅延は10msec以内 -F 簡易スキャン nmap-servicesに記載されたポートのみをスキャン https://nmap.org/book/nmap-services.html -r ポートをランダムにしない Christmass Scan -sX Christmass" />
+		<meta property="og:title" content="nmap cheat nmapチート" />
+<meta property="og:description" content="nmapとは ポートスキャンツールです。ペネトレーション作業の基本ツールです。 -T5 insane 最速でスキャンを実行 https://nmap.org/man/ja/man-performance.html -T4 Aggresive スキャン処理の遅延は10msec以内 -F 簡易スキャン nmap-servicesに記載されたポート" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://timeislife.tech/posts/nmap/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-05-01T00:00:00+00:00" />
 <meta property="article:modified_time" content="2022-05-01T00:00:00+00:00" />
 
 
-		<meta itemprop="name" content="nmap cheat">
-<meta itemprop="description" content="nmap is a port scan tool. these are the majore options when running. -T5 insane 最速でスキャンを実行 https://nmap.org/man/ja/man-performance.html -T4 Aggresive スキャン処理の遅延は10msec以内 -F 簡易スキャン nmap-servicesに記載されたポートのみをスキャン https://nmap.org/book/nmap-services.html -r ポートをランダムにしない Christmass Scan -sX Christmass"><meta itemprop="datePublished" content="2022-05-01T00:00:00+00:00" />
+		<meta itemprop="name" content="nmap cheat nmapチート">
+<meta itemprop="description" content="nmapとは ポートスキャンツールです。ペネトレーション作業の基本ツールです。 -T5 insane 最速でスキャンを実行 https://nmap.org/man/ja/man-performance.html -T4 Aggresive スキャン処理の遅延は10msec以内 -F 簡易スキャン nmap-servicesに記載されたポート"><meta itemprop="datePublished" content="2022-05-01T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-05-01T00:00:00+00:00" />
-<meta itemprop="wordCount" content="321">
+<meta itemprop="wordCount" content="657">
 <meta itemprop="keywords" content="CEH,Network,nmap," />
 		<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="nmap cheat"/>
-<meta name="twitter:description" content="nmap is a port scan tool. these are the majore options when running. -T5 insane 最速でスキャンを実行 https://nmap.org/man/ja/man-performance.html -T4 Aggresive スキャン処理の遅延は10msec以内 -F 簡易スキャン nmap-servicesに記載されたポートのみをスキャン https://nmap.org/book/nmap-services.html -r ポートをランダムにしない Christmass Scan -sX Christmass"/>
+<meta name="twitter:title" content="nmap cheat nmapチート"/>
+<meta name="twitter:description" content="nmapとは ポートスキャンツールです。ペネトレーション作業の基本ツールです。 -T5 insane 最速でスキャンを実行 https://nmap.org/man/ja/man-performance.html -T4 Aggresive スキャン処理の遅延は10msec以内 -F 簡易スキャン nmap-servicesに記載されたポート"/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -34,6 +34,17 @@
 
 	<link rel="shortcut icon" href="/favicon.ico">
 		
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W9EH9TGFPZ"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-W9EH9TGFPZ', { 'anonymize_ip': false });
+}
+</script>
+
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -46,7 +57,7 @@
 					<img class="logo__img" src="/icons/favicon.ico">
 				</div><div class="logo__item logo__text">
 					<div class="logo__title">time is life with tech</div>
-					<div class="logo__tagline">Just another site</div>
+					<div class="logo__tagline">Technology is the magic of our ages.</div>
 				</div>
 		</a>
 	</div>
@@ -88,7 +99,7 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">nmap cheat</h1>
+			<h1 class="post__title">nmap cheat nmapチート</h1>
 			<div class="post__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">aiyk</span>
 </div>
@@ -107,14 +118,14 @@
     <li><a href="#normal-scans">Normal Scans</a></li>
     <li><a href="#os-detection">OS Detection</a></li>
     <li><a href="#input-and-output">Input and Output</a></li>
+    <li><a href="#maimon-scan-マイモンスキャン">Maimon scan マイモンスキャン</a></li>
     <li><a href="#nmap学習動画">nmap学習動画</a></li>
   </ul>
 </nav>
 	</div>
 </div><div class="content post__content clearfix">
-			<h1 id="nmap">nmap</h1>
-<p>is a port scan tool.</p>
-<p>these are the majore options when running.</p>
+			<h1 id="nmapとは">nmapとは</h1>
+<p>ポートスキャンツールです。ペネトレーション作業の基本ツールです。</p>
 <ul>
 <li>
 <p>-T5 insane 最速でスキャンを実行</p>
@@ -203,6 +214,15 @@
 <ul>
 <li>-oX XML形式でのファイル出力</li>
 </ul>
+<h2 id="maimon-scan-マイモンスキャン">Maimon scan マイモンスキャン</h2>
+<p>マイモンスキャンは、発見者であるウリエル・マイモンにちなんで名づけられた。
+ウリエル・マイモンは、Phrack Magazineの49号(1996年11月)でこの技法を説明した。</p>
+<p>このテクニックは、プローブがFIN/ACKであることを除けば、NULL、FIN、Xmasスキャンと全く同じである。</p>
+<p>RFC793（TCP）によれば、このようなプローブに対しては、ポートが開いていようと閉じていようと、RSTパケットを生成することになっている。
+しかし、ウリエルは、多くのBSD由来のシステムが、ポートが開いている場合は単にパケットをドロップしていることに気づいた。
+これによりBSD由来のシステムの特定が可能となる。</p>
+<p><a href="https://nmap.org/book/scan-methods-maimon-scan.html">https://nmap.org/book/scan-methods-maimon-scan.html</a></p>
+<hr>
 <h2 id="nmap学習動画">nmap学習動画</h2>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
