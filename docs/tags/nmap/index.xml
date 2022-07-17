@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nmap on Time is life with tech</title>
+    <link>https://timeislife.tech/tags/nmap/</link>
+    <description>Recent content in nmap on Time is life with tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://timeislife.tech/tags/nmap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nmap cheat</title>
+      <link>https://timeislife.tech/posts/nmap/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.tech/posts/nmap/</guid>
+      <description>nmap is a port scan tool. these are the majore options when running. -T5 insane 最速でスキャンを実行 https://nmap.org/man/ja/man-performance.html -T4 Aggresive スキャン処理の遅延は10msec以内 -F 簡易スキャン nmap-servicesに記載されたポートのみをスキャン https://nmap.org/book/nmap-services.html -r ポートをランダムにしない Christmass Scan -sX Christmass</description>
+    </item>
+    
+  </channel>
+</rss>

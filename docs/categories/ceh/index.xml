@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CEH on Time is life with tech</title>
+    <link>https://timeislife.tech/categories/ceh/</link>
+    <description>Recent content in CEH on Time is life with tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://timeislife.tech/categories/ceh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DoS攻撃</title>
+      <link>https://timeislife.tech/posts/dos/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.tech/posts/dos/</guid>
+      <description>DoS攻撃とは https://en.wikipedia.org/wiki/Denial-of-service_attack 分散型サービス妨害（DDoS）攻撃とは、 インターネット上の大量のトラフィックでターゲットやその周辺のインフラへ高負荷を与えるることで、 ターゲットのサーバー、サービス、ネットワークの正常</description>
+    </item>
+    
+  </channel>
+</rss>
