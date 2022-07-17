@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Time is life on Time is life with tech</title>
+    <link>https://timeislife.tech/</link>
+    <description>Recent content in Time is life on Time is life with tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 17 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://timeislife.tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TailgatingとPiggybackingの違い</title>
+      <link>https://timeislife.tech/posts/tailgate-piggybacking/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.tech/posts/tailgate-piggybacking/</guid>
+      <description>Tailgating 隠れて後ろからゲート通過 車で後ろから追走したり、後ろに付いてETCゲートなどを通過することから、 従業員がゲートを通過する際に後ろからひっそりと一緒に通過すること Piggybacking 意図的にもう一人と一緒にゲート通過 ゲ</description>
+    </item>
+    
+    <item>
+      <title>Pharming and Phising</title>
+      <link>https://timeislife.tech/posts/phaming-phising/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.tech/posts/phaming-phising/</guid>
+      <description>Pharming Pharming A victim is redirected to a malicious website by modifying the hosts file or by exploiting DNS servers.
+  Phishing An attacker sends e-mail with a URL which has malicious link similar to the popular actual websites.</description>
+    </item>
+    
+    <item>
+      <title>Bluethoothを利用した攻撃</title>
+      <link>https://timeislife.tech/posts/buluetooth-attack/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.tech/posts/buluetooth-attack/</guid>
+      <description>Bluejacking ブルージャッキング 周囲にあるスマホなどのBluetoothデバイスへメッセージを送信すること。 Bluesnarfing ブルースナーフィイング https://en.wikipedia.org/wiki/Bluesnarfing ブルースナーフィングとは、Bluetooth接続により無線機器から情報に不正に</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://timeislife.tech/about/about/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.tech/about/about/</guid>
+      <description>I am just a geek.</description>
+    </item>
+    
+  </channel>
+</rss>
