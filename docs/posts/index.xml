@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Time is life on Time is life with tech</title>
+    <link>https://timeislife.tech/posts/</link>
+    <description>Recent content in Time is life on Time is life with tech</description>
+    <image>
+      <url>https://timeislife.tech/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://timeislife.tech/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 17 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://timeislife.tech/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TailgatingとPiggybackingの違い</title>
+      <link>https://timeislife.tech/posts/tailgate-piggybacking/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.tech/posts/tailgate-piggybacking/</guid>
+      <description>Tailgating　隠れて後ろからゲート通過 車で後ろから追走したり、後ろに付いてETCゲートなどを通過することから、 従業員がゲートを通過する際に後ろからひっそりと一緒に通過すること
+Piggybacking　意図的にもう一人と一緒にゲート通過 ゲートにおいて、意図的に自分と一緒にもう一人を通過させること</description>
+    </item>
+    
+    <item>
+      <title>Pharming and Phising</title>
+      <link>https://timeislife.tech/posts/phaming-phising/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.tech/posts/phaming-phising/</guid>
+      <description>Pharming Pharming A victim is redirected to a malicious website by modifying the hosts file or by exploiting DNS servers.
+  Phishing An attacker sends e-mail with a URL which has malicious link similar to the popular actual websites.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://timeislife.tech/posts/about/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.tech/posts/about/</guid>
+      <description>I am just a geek.</description>
+    </item>
+    
+  </channel>
+</rss>
