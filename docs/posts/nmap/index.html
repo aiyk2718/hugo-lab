@@ -18,7 +18,7 @@
 		<meta itemprop="name" content="nmap cheat nmapチート">
 <meta itemprop="description" content="nmapとは ポートスキャンツールです。ペネトレーション作業の基本ツールです。 -T5 insane 最速でスキャンを実行 https://nmap.org/man/ja/man-performance.html -T4 Aggresive スキャン処理の遅延は10msec以内 -F 簡易スキャン nmap-servicesに記載されたポート"><meta itemprop="datePublished" content="2022-05-01T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-05-01T00:00:00+00:00" />
-<meta itemprop="wordCount" content="657">
+<meta itemprop="wordCount" content="893">
 <meta itemprop="keywords" content="CEH,Network,nmap," />
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="nmap cheat nmapチート"/>
@@ -35,20 +35,22 @@
 	<link rel="shortcut icon" href="/favicon.ico">
 
 	
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W9EH9TGFPZ"></script>
 <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-W9EH9TGFPZ');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W9EH9TGFPZ');
 </script>
+
 
 </head>
 <body class="body">
 	<div class="container container--outer">
 		<header class="header">
 	<div class="container header__container">
-
 		
 	<div class="logo logo--mixed">
 		<a class="logo__link" href="/" title="time is life with tech" rel="home">
@@ -92,7 +94,6 @@
 
 	</div>
 </header>
-
 		<div class="wrapper flex">
 			<div class="primary">
 			
@@ -116,7 +117,9 @@
   <ul>
     <li><a href="#christmass-scan">Christmass Scan</a></li>
     <li><a href="#normal-scans">Normal Scans</a></li>
-    <li><a href="#os-detection">OS Detection</a></li>
+    <li><a href="#-s-spoof-source-address-ソースip偽装">-S Spoof source address ソースIP偽装</a></li>
+    <li><a href="#-d-decoy-scan-デコイスキャンおとりスキャン">-D Decoy Scan デコイスキャン・おとりスキャン</a></li>
+    <li><a href="#-o-os-detection">-O OS Detection</a></li>
     <li><a href="#input-and-output">Input and Output</a></li>
     <li><a href="#maimon-scan-マイモンスキャン">Maimon scan マイモンスキャン</a></li>
     <li><a href="#nmap学習動画">nmap学習動画</a></li>
@@ -165,7 +168,7 @@
 <li>
 <p>sT connect Scan</p>
 <ul>
-<li>Most visible and easily detected by IDS</li>
+<li>Most visible and easily detected by IDS　IDSによって容易に検知される</li>
 </ul>
 </li>
 <li>
@@ -206,7 +209,17 @@
 </tr>
 </tbody>
 </table>
-<h2 id="os-detection">OS Detection</h2>
+<h2 id="-s-spoof-source-address-ソースip偽装">-S Spoof source address ソースIP偽装</h2>
+<p>ソースIPを偽装してスキャンを実行する。</p>
+<pre tabindex="0"><code>namp -S 192.168.10.1
+</code></pre><h2 id="-d-decoy-scan-デコイスキャンおとりスキャン">-D Decoy Scan デコイスキャン・おとりスキャン</h2>
+<p><a href="https://linux.die.net/man/1/nmap">https://linux.die.net/man/1/nmap</a></p>
+<p>おとりスキャンを実行する。引数に複数のおとり用IPアドレスを指定。</p>
+<pre tabindex="0"><code>namp -D decoy1[,decoy2]...
+</code></pre><p>リモートホストには、おとりとして指定したホストもターゲットネットワークをスキャンしているように見せる。
+そのため、IDSは固有のIPアドレスから5～10回のポートスキャンを報告するが、どのIPが実際にスキャンしていて、
+どれが無実のおとりであるかの判定を困難にする。</p>
+<h2 id="-o-os-detection">-O OS Detection</h2>
 <ul>
 <li>O OS判定</li>
 </ul>
